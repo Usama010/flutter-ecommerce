@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage  extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("Home Page") ,
       ),
       body: Center(
         child: Container(
